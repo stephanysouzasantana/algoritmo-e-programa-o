@@ -48,7 +48,7 @@ public class MaquinaDeDoces {
                 break;
             }
 
-            
+
             if (credito >= preco) {
                 credito -= preco;
                 System.out.printf("Produto comprado! Saldo restante: R$ %.2f%n", credito);
